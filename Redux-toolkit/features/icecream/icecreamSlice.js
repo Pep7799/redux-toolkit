@@ -6,7 +6,7 @@ const initialState = {                                                      //(3
 } 
 
 const icecreamSlice = createSlice({                                         //(1)
-    name: icecream,                                                         //(2)        
+    name: 'icecream',                                                         //(2)        
     initialState,
     reducers: {
         ordered: (state) => {
