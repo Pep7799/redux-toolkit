@@ -15,6 +15,7 @@ const cakeSlice = createSlice({                 //action defined
             state.numOfCakes += action.payload
         }
     },
+    
   
 })
 
